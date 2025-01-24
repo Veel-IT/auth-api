@@ -1,12 +1,12 @@
 local set up
 
-clone git
+```
+clone git https://github.com/Veel-IT/auth-api.git
+```
 
-npm ci
+```
+docker-compose up -d
+```
 
-copy .env.dev in .env
-
-npx prisma generate
-
-application is running on port 5001
-swagger is aviable on: http://localhost:5001/api
+application is running on port 5000
+swagger is available on: http://localhost:5000/api
